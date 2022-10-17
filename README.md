@@ -26,15 +26,15 @@ by wzk
 
 `git clone`或直接下载仓库，使用命令行（windows下可按下win+R输入cmd，mac下打开终端）进入下载目录，运行`java -jar sgsgui.jar`即可畅玩！
 
-<img src="README.assets/image-20200702143730552.png" alt="image-20200702143730552" style="zoom: 33%;" />
+![](README.assets/image-20200702143730552.png)
 
-<img src="README.assets/image-20200702143815869.png" alt="image-20200702143815869" style="zoom:33%;" />
+![](README.assets/image-20200702143815869.png)
 
 ### 命令行运行
 
 同上，运行`java -jar sanguosha.jar`，即可命令行运行
 
-<img src="README.assets/image-20200702143543760.png" alt="image-20200702143543760" style="zoom:33%;" />
+![](README.assets/image-20200702143543760.png)
 
 ### 自定义！
 
@@ -87,7 +87,7 @@ by wzk
 
 本软件基于Java实现了文字版三国杀，其中包括了66个武将，41种手牌及若干其他功能类，共计147个类和接口，采用高度面向对象的设计方法实现，总行数达到**10000行**以上。同时，使用了swing开发了GUI作为游戏界面。代码经过仔细整理和重构，使用checkstyle检查，符合google的代码设计规范。
 
-<img src="README.assets/image-20211117215440021.png" alt="image-20211117215440021" style="zoom: 67%;" />
+![](README.assets/image-20211117215440021.png)
 
 主要实现了三国杀对战的功能，涵盖了上百种不同技能，可以进行单机多人对战、玩家挑战AI等，支持自定义游戏人数、身份配置、武将扩展包等功能。玩家通过键盘输入命令与程序交互，在屏幕上以文字形式展示游戏进行流程、全局每名玩家的状态、当前回合玩家的状态等信息。游戏中每名玩家依次执行自己的回合，打出卡牌或使用技能触发一系列复杂的判定过程，并实时判定游戏结束条件，在触发游戏结束条件时结束程序，输出获胜者。
 
@@ -405,4 +405,4 @@ by wzk
 
 仅展示了核心类和接口。其余类多数为核心类的子类。
 
-<img src="README.assets/ER-7165250.png" alt="ER" style="zoom: 50%;" />
+![](README.assets/ER-7165250.png)
